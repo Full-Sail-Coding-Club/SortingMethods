@@ -8,7 +8,7 @@ This is a repository of Sorting method implementations written in C++.
 - BubbleSort  
 
 #### Planned to be Implemented:  
-Every algorithm mentioned on [bigocheaatsheet.com](bigocheatsheet.com)  
+Every algorithm mentioned on [bigocheatsheet.com](https://www.bigocheatsheet.com)  
 
 - MergeSort  
 - TimSort  
