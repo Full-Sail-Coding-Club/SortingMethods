@@ -142,6 +142,7 @@
     <ClCompile Include="SortingMethods.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Quicksort.h" />
     <ClInclude Include="Sorter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
