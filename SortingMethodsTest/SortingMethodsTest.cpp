@@ -22,14 +22,6 @@ namespace SortingMethodsTest
 				Assert::AreEqual(expected[i], actual[i]);
 			}
 		}
-
-		template<class T>
-		void printArray(T arr[], size_t size) {
-			for (size_t i = 0; i < size; i++) {
-				printf("%d", arr[i]);
-				if (i < size - 1) printf(", ");
-			}
-		}
 		#pragma endregion
 
 		#pragma region Positive Tests
@@ -102,6 +94,7 @@ namespace SortingMethodsTest
 		TEST_METHOD(quickSort) {
 			s = new Quicksort<int>();
 			positive_Tests(s);
+			negative_Tests(s);
 		}
 
 		TEST_METHOD(bubbleSort) {

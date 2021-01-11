@@ -1,5 +1,8 @@
 #pragma once
-template<typename T>
+/*
+* Provides an interface for sorting arrays of type T
+*/
+template<class T>
 class Sorter {
 public:
 
