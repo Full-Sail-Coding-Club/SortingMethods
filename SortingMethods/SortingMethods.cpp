@@ -1,7 +1,5 @@
 // SortingMethods.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
-#include <iostream>
 /* C implementation QuickSort */
 
 #include<stdio.h>
@@ -14,7 +12,7 @@ void swap(T* a, T* b) {
     *b = t;
 }
 
-#pragma region Quiicksort
+#pragma region Quicksort
 
 /*This function takes last element as pivot, places
   the pivot element at its correct position in sorted
@@ -58,8 +56,7 @@ void quickSort(T arr[], int low, int high) {
 /*Function to print an array */
 
 void printArray(int arr[], int size) {
-    int i;
-    for (i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++) {
         printf("%d", arr[i]);
         if (i < size - 1) printf(", ");
     }
