@@ -17,10 +17,11 @@ void printArray(T arr[], size_t size) {
 }
 
 /*
-* main required.
-* 
+main required.
+This only shows Quicksort. To analyze all sorting methods, either:
+  * Test -> Run All Tests
+  * "Ctrl+R, A"
 */
-
 int main() {
     int arr[] = { 10, 7, 8, 9, 1, 5 };
     int n = sizeof(arr) / sizeof(arr[0]);
